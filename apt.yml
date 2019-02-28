@@ -1,0 +1,4 @@
+---
+packages:
+- libssl1.0.0
+- libasound2

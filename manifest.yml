@@ -1,0 +1,8 @@
+applications:
+- name: my-app
+  path: target/demo
+  memory: 1G
+  instances: 1
+  stack: cflinuxfs3
+  env:
+    LD_LIBRARY_PATH: "/home/vcap/deps/0/apt/usr/lib/x86_64-linux-gnu"
